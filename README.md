@@ -96,5 +96,4 @@ message("Phiên làm việc Spark đã kết thúc.")
 Dự án này giúp **phân tích xu hướng đặt phòng khách sạn** và **dự đoán tỷ lệ hủy đặt phòng** bằng cách tận dụng sức mạnh xử lý dữ liệu lớn của **Apache Spark** và **Sparklyr**. Trong tương lai, có thể thử nghiệm với các mô hình học sâu để cải thiện độ chính xác.
 
 ---
-📌 **Tác giả:** _Tên của bạn_
-📌 **Liên hệ:** _Email của bạn_
+📌 **Tác giả: Nguyễn Thị Lan Anh, Ngô Ngọc Phú, Đỗ Ngọc Nghĩa.**
