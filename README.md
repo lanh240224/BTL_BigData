@@ -92,31 +92,31 @@ spark_disconnect(sc)
 message("Phiên làm việc Spark đã kết thúc.")
 ```
 ## Kết quả ##
-Biểu đồ 1: Số lượng đặt phòng theo tháng
- 
+# Phân tích dữ liệu đặt phòng khách sạn  
 
-- Biểu đồ 2: Tỷ lệ hủy đặt phòng theo tháng
- 
+## 1️⃣ Số lượng đặt phòng theo tháng  
+![Số lượng đặt phòng theo tháng](images/1.png)  
 
-- Biểu đồ 3: Số lượng đặt phòng theo loại khách sạn
- 
+## 2️⃣ Tỷ lệ hủy đặt phòng theo tháng  
+![Tỷ lệ hủy đặt phòng theo tháng](images/2.png)  
 
+## 3️⃣ Số lượng đặt phòng theo loại khách sạn  
+![Số lượng đặt phòng theo loại khách sạn](images/3.png)  
 
-- Biểu đồ 4: Phân phối ADR (Giá trung bình mỗi ngày) theo loại khách sạn
- 
+## 4️⃣ Phân phối ADR (Giá trung bình mỗi ngày) theo loại khách sạn  
+![Phân phối ADR theo loại khách sạn](images/4.png)  
 
-- Biểu đồ 5: Số lượng đặt phòng theo loại phòng
- 
+## 5️⃣ Số lượng đặt phòng theo loại phòng  
+![Số lượng đặt phòng theo loại phòng](images/5.png)  
 
--	Hiệu xuất mô hình
- 
+## 6️⃣ Hiệu suất mô hình  
+![Hiệu suất mô hình](images/6.png)  
 
--	Xem dữ liệu từ spark 
- 
+## 7️⃣ Xem dữ liệu từ Spark  
+![Xem dữ liệu từ Spark](images/7.png)  
 
--	Xem bảng dữ liệu
-
- 
+## 8️⃣ Xem bảng dữ liệu  
+![Xem bảng dữ liệu](images/8.png)  
 
 ## 6️⃣ Kết luận
 Dự án này giúp **phân tích xu hướng đặt phòng khách sạn** và **dự đoán tỷ lệ hủy đặt phòng** bằng cách tận dụng sức mạnh xử lý dữ liệu lớn của **Apache Spark** và **Sparklyr**. Trong tương lai, có thể thử nghiệm với các mô hình học sâu để cải thiện độ chính xác.
