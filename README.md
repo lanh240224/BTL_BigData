@@ -91,6 +91,32 @@ message("🎯 Hiệu suất mô hình Random Forest - AUC-ROC: ", round(auc, 4))
 spark_disconnect(sc)
 message("Phiên làm việc Spark đã kết thúc.")
 ```
+## Kết quả ##
+Biểu đồ 1: Số lượng đặt phòng theo tháng
+ 
+
+- Biểu đồ 2: Tỷ lệ hủy đặt phòng theo tháng
+ 
+
+- Biểu đồ 3: Số lượng đặt phòng theo loại khách sạn
+ 
+
+
+- Biểu đồ 4: Phân phối ADR (Giá trung bình mỗi ngày) theo loại khách sạn
+ 
+
+- Biểu đồ 5: Số lượng đặt phòng theo loại phòng
+ 
+
+-	Hiệu xuất mô hình
+ 
+
+-	Xem dữ liệu từ spark 
+ 
+
+-	Xem bảng dữ liệu
+
+ 
 
 ## 6️⃣ Kết luận
 Dự án này giúp **phân tích xu hướng đặt phòng khách sạn** và **dự đoán tỷ lệ hủy đặt phòng** bằng cách tận dụng sức mạnh xử lý dữ liệu lớn của **Apache Spark** và **Sparklyr**. Trong tương lai, có thể thử nghiệm với các mô hình học sâu để cải thiện độ chính xác.
